@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>CTG</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/my.css">
+    <link rel="stylesheet" type="text/css" href="css/button.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet"> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader">
+
+  <div class='body'>
+  <span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </span>
+  <div class='base'>
+    <span></span>
+    <div class='face'></div>
+  </div>
+</div>
+<div class='longfazers'>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+<div id="l">
+	<h1>Redirecting</h1>
+</div>
+
+</div>
+
+<div style="display:none; color: black; text-align: center;" id="myDiv" class="animate-bottom">
+  <nav class="navbar navpos navbar-expand-lg navbar-light bg-light">
+  <img src="logo.png" height="40px" width="40px">&nbsp;&nbsp;
+  <a class="navbar-brand" href="#">Connect To Grow</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link navfont" href="/">HOME <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navfont" href="{% url 'profile' %}">Profile</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle navfont" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          My ACCOUNT
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">ACTION</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'logout' %}">Logout</a>
+        </div>
+      </li>
+    </ul>
+  </div></nav>
+
+  <div id="searchbar">
+  <form method="post">
+  	<input type="text" class="searchbar" name="search" placeholder="Search">
+  	<button>Search</button>
+  </form>
+</div>
+
+
+  <div id="ctg0">
+  	<img src="logo.png" height="40%" width="40%">
+  </div>
+
+  <div id="ctg1">
+  <h2></h2>
+  </div>
+
+  <div id="ctg2">
+  <h5>	lorem ipsum cbskjcdskfnslkgfjdslkgjsldgjad;lfjasdhvshavxgshvcsacsacsacscdvdbfngnhgkmhmnfg</h5>
+  </div>
+
+  <div id="ctgnew">
+  	
+  </div>
+
+
+    <center>
+  
+<script>
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 2000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+<script  src="js/index.js"></script>
+
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</center></div>
+</body>
+
+</html>

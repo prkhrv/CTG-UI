@@ -1,0 +1,113 @@
+#myDiv{
+  background-image: url("../bg.png");
+
+    /* Set a specific height */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 655px;
+  text-align: center;
+
+}
+
+.navpos{
+  position: fixed !important;
+  width: 100%;
+  margin-top: 0px;
+  z-index: 1;
+}
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+.bg-trans{
+	background-color:  black !important ;
+}
+
+.navfont{
+	font-family: 'Bitter', serif;
+}
+
+.navfont:hover{
+	border-bottom: 2px solid black;
+	animation-delay: 1s;
+}
+
+#ctg1 h2{
+	margin-top: 185px;
+	margin-right: 200px;
+	font-family: 'Bitter', serif;
+	text-transform: uppercase;
+	font-size: 80px;
+
+}
+
+#ctg2 h5{
+	margin-right: 00px;
+	font-family: 'Bitter', serif;
+}
+
+
+span.new {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
+#searchbar{
+	position: relative;
+  top: 150px;
+}
+
+.searchbar{
+	padding: 8px;
+	background-color: #fff6;
+	border-radius: 1px;
+	border: 2px solid transparent;
+	width: 35%;
+}
+.searchbar:focus {
+    background-color: white;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    transition:800ms ease all;
+}
+
+
+#ctg0{
+  position: absolute;
+  left: -67px;
+  top: 200px;
+}
+
+
+#ctgnew{
+  height: 500px;
+  width: 100%;
+  background-color: white;
+  margin-top: 275px;
+}
