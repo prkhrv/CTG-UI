@@ -53,16 +53,17 @@
 
 #ctg1 h2{
 	margin-top: 185px;
-	margin-right: 200px;
 	font-family: 'Bitter', serif;
 	text-transform: uppercase;
 	font-size: 80px;
+  color: white;
 
 }
 
 #ctg2 h5{
 	margin-right: 00px;
 	font-family: 'Bitter', serif;
+  color: white;
 }
 
 
@@ -110,4 +111,13 @@ span.new {
   width: 100%;
   background-color: white;
   margin-top: 275px;
+}
+@media only screen and (max-width: 480px){
+
+  #ctg1 h2{
+
+      font-size: 40px;
+  }
+
+
 }
