@@ -4,6 +4,7 @@ button{
   color: #0009;
   border:none;
   position:relative;
+  font-family: 'Oswald', sans-serif !important ;
   height:43px;
   font-size:1.6em;
   padding:0 2em;
